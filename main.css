@@ -1,0 +1,97 @@
+body{
+    background-image: url(https://saspa.org/wp-content/uploads/2013/10/free-purple-backgrounds-hd-abstract-picture-purple-backgrounds.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.a{
+
+    font-family: sans-serif;
+    font-weight: 10;
+    text-align: center;
+    color: white;    
+}
+form{
+   width: fit-content;
+   padding: 1cm;
+   text-align: center;
+   border-radius: 02%;
+   background-color: transparent;
+   margin: auto;
+   margin-top: 05em;
+   display: block;
+}
+
+input[type="submit"]{
+    color: black;
+    background-color: orange;
+    border: 1px solid black;
+    padding: 0.2cm;
+    font-size: 0.5cm;
+    border-radius: 0px;
+}
+.zoo {
+    position: relative;
+    height: 110%;
+    border-radius: 10px;
+    margin: auto;
+    background: transparent;
+    width: 40%;
+    border: 1px solid black;
+}
+
+.registerbtn {
+    background-color: orange;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity:1;
+  }
+
+  input[type=text], input[type=password], input[type=email], input[type=tel] {
+    width: 100%;
+    padding: 10px;
+    margin: 1px 0 1px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=tel]:focus{
+    background-color: #ddd;
+    outline: none;
+
+  }
+  ul{
+    list-style: none;
+    border-bottom: 2px solid black;
+    text-align: right;
+    margin-right: 2em;
+    position: relative;
+    padding: 1em;
+  }
+  li{
+    display: inline;
+    margin: 0 1em ;
+
+  }
+  .navi img{
+    position: absolute;
+    left: 0px;
+  }
+  .abc{
+    position: relative;
+    height: 70%;
+    border-radius: 10px;
+    margin: auto;
+    background: white;
+    width: 30%;
+    border: 1px solid black;
+  }
